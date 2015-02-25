@@ -1,0 +1,31 @@
+{
+    "name": "matthewbaggett/food-panda-csv-thing",
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "filp/whoops": "1.*",
+        "zeuxisoo/slim-whoops": "dev-master",
+        "raveren/kint": "dev-master",
+        "thru.io/active_record": "0.2.*",
+        "thru.io/json-pretty-printer": "1.0.*",
+        "thru.io/translation": "dev-master",
+        "thru.io/session": "dev-master",
+        "league/csv": "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*",
+        "phpunit/phpunit-selenium": ">=1.2",
+        "facebook/webdriver": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"FoodPanda\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": { "FoodPanda\\Tests\\": "tests/" }
+    }
+}
